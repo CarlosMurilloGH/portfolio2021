@@ -1,0 +1,112 @@
+/*
+
+.ContainerText{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+ 
+
+.Infocontainer{
+    width: 100%;
+    display: flex;
+}
+*/
+.Contactcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
+.caja1{
+    margin-left: 100px;
+    
+}
+
+.contacttitle p{
+    font-size: 40px;
+    font-family: 'Segoe UI'; 
+    font-weight: 700;
+    padding-top: 20px;
+    
+}
+
+.contacttext p{
+    font-size: 20px;
+    font-family: 'Segoe UI'; 
+    padding-right: 30px;
+}
+
+.contactprojects p {
+    font-size: 30px;
+    font-family: 'Segoe UI'; 
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.caja2{
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+.caja2 p{
+    font-size: 40px;
+    font-family: 'Segoe UI'; 
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-device-width: 800px){
+    .Contactcontainer{
+        display: block;
+        padding-top: 30px;
+    }
+    .caja1{
+        margin-left: 50px;
+        margin-right: 50px;  
+        margin-bottom: 100px; 
+    }
+    
+    .caja2{
+        margin-left: 50px;
+         
+    }
+}
+
+@media only screen and (max-device-width: 530px){
+    
+    .contacttitle p{
+        font-size: 30px;
+        font-family: 'Segoe UI'; 
+        font-weight: 700;
+        padding-top: 20px; 
+    }
+    
+    .contacttext p{
+        font-size: 17px;
+        font-family: 'Segoe UI'; 
+        padding-right: 10px;
+    }
+    
+    .contactprojects p {
+        font-size: 20px;
+        font-family: 'Segoe UI'; 
+        font-weight: 700;
+        padding-top: 30px;
+    }
+
+    .caja2{
+        margin-right: 60px;  
+    }
+
+    .caja2 p{
+        font-size: 30px;
+        font-family: 'Segoe UI'; 
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+}

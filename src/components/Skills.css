@@ -1,0 +1,161 @@
+.containerSkills{
+    
+    background-color: rgb(245, 246, 247);
+    width: 100%;
+    
+}
+
+.titulo{
+    font-size: 50px;
+    font-weight: 800;
+    font-family:sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+
+.skill{
+    width: 80%;
+    margin-top: 20px;
+    padding-top: 30px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgb(210, 213, 217);
+    display:flex;
+    
+}
+
+.skillimg{
+    margin-right: 50px;
+}
+
+.skilltext h1 {
+    font-size: 25px;
+    font-weight: 800;
+    font-family:sans-serif; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.skilltext p {
+    font-size: 20px;
+    font-family: 'Segoe UI'; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.skilltext ul {
+    font-size: 20px;
+    font-family: 'Segoe UI'; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+    padding-right: 50px;
+}
+
+.cajalista{
+    width: 100%; 
+    display: flex;
+    margin:auto;
+    
+}
+
+.caja{
+    width: 100%;
+}
+
+@media (max-width: 1050px) {
+    .titulo{
+        margin-left: 100px;
+        font-size: 50px;
+    }
+
+    .skill{
+        width: 90%;
+        margin-left: 50px;
+        display:inline-block;
+    }
+    .skillimg{
+        margin-left: 50px;
+    }
+    .skilltext h1 {
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .skilltext p {
+        font-size: 17px;
+        margin-left: 50px;
+    }
+    
+    .skilltext ul {
+        font-size: 17px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-device-width: 667px) {
+
+    .titulo{
+        margin-left: 40px;
+        font-size: 30px;
+    }
+
+    .skill{
+        margin-left: 30px;
+        display:inline-block;
+    }
+
+    .skillimg{
+        margin-left: 10px;
+    }
+
+    .skilltext h1 {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .skilltext p {
+        font-size: 17px;
+        margin-left: 20px;
+    }
+
+    .skilltext ul {
+        font-size: 15px;
+        line-height: 30px;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-device-width: 418px){
+    
+    .titulo{
+        margin-left: 30px;
+        font-size: 30px;
+    }
+
+    .skill{
+        margin-left: 30px;
+        display:inline-block;
+    }
+
+    .skillimg{
+        margin-left: 10px;
+    }
+
+    .skilltext h1 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .skilltext p {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .skilltext ul {
+        font-size: 15px;
+        line-height: 25px;
+        padding-left: 0px;
+        padding-right: 25px;
+    }
+}
