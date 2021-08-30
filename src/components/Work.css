@@ -6,7 +6,6 @@
 
 .frame{
     display: flex;
-    width: 80%;
     margin:auto;
     background-color: rgb(245, 246, 247);
     padding-left: 60px;
@@ -15,6 +14,7 @@
     padding-bottom: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 80%;
 }
 .frame:hover{
     box-shadow: rgb(102 102 102 / 20%) 0px 2px 4px 0px, rgb(179 179 179 / 24%) 0px 6px 12px 0px;
@@ -33,7 +33,6 @@
     padding-bottom: 10px; 
     font-size: 20px;
     font-family: 'Segoe UI'; 
-    width: 500px;
 }
 
 .frameText a{
@@ -97,7 +96,7 @@
 
 
 .figmaDesigns{
-    width: 90vw;
+    width:80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
@@ -111,15 +110,11 @@
 
 .desing img{
     width: 400px;
-    height: 225px;
     border:1px solid black;
-    object-position: top;
-    object-fit: cover;
-    transition:ease-in-out 10s;
 }
 
 .desing img:hover{
-    object-position: bottom;
+    box-shadow: rgb(102 102 102 / 20%) 0px 2px 4px 0px, rgb(179 179 179 / 24%) 0px 6px 12px 0px;
 }
 
 
@@ -128,7 +123,6 @@
 @media (max-device-width: 1200px){
     .frame{
         display:block;
-        width:80%;
         margin:auto;
         padding-left: 40px;
         padding-right: 40px;
@@ -146,14 +140,15 @@
     .figmaTitle{
         text-align: center;
         margin-left: 0px;
-}
+    }
+
 
     .desing{
         margin: auto;
     }
 
     .figmaDesigns{
-        width: 90vw;
+        width: 80%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         row-gap: 20px;
@@ -162,9 +157,6 @@
         align-items: center;
         margin:auto;
         margin-bottom: 30px;
-    }
-    .frameText p{
-        width: 870px;
     }
 
     
@@ -176,4 +168,8 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    .figmaDesigns{
+        grid-template-columns: 1fr ;
+    }
+
 }

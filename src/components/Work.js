@@ -169,7 +169,7 @@ function Work() {
                 <div className="frameImg">
                     <img src={quotable} alt="quotable"/>
                 </div>
-            </div>
+            </div> 
 
       
             <div className="figmaTitle">
