@@ -17,16 +17,13 @@ export default function Contact() {
                     </p>
                 </div>
 
-                <div className="contactprojects">
-                    <p>¿Want to see all my projects?</p>
-                </div>
             </div>
                 
             <div className="caja2">
                 <div>
                     <p>Send me a message</p>
                 </div>
-                <div>
+                <div className="cajaform">
                     <ContactUs />
                 </div>
             </div>
