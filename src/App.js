@@ -9,7 +9,7 @@ import Header from './components/Header';
 import WorkPage from './pages/WorkPage';
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';
-import Footer from './components/Footer';
+
 
 
 function App() {
