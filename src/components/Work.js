@@ -7,11 +7,96 @@ import framework from "../assets/frameworkblog.jpg";
 import attorney from "../assets/attorneymarketing.jpg";
 import coffee from "../assets/coffeeshop.jpg";
 import cripto from "../assets/criptotracker.jpg";
+import todolist from "../assets/todolist.png";
 
 function Work() {
     return (
         <div className="containerWork">
 
+            <div className="frame">
+                <div className="frameText">
+                    <h1>Todo list + firebase</h1>
+                    <p>
+                        I made a mobile application where I can save my todo list on firebase and I deployed it 
+                        on expo.
+                    </p>
+
+                    <div className="tech">
+                        <ul>
+                            <li>React-Native</li>
+                            <li>Firebase</li>
+                            <li>React navigation</li>
+                            <li>React gesture handler</li>
+                        </ul>
+                    </div>
+
+                    <div className="containerlinks">
+                        <div className="framelinks">
+                        <a href="https://github.com/CarlosMurilloGH/todolistfirebaseexpo" 
+                        target="_blank" 
+                        rel="noreferrer">
+                        Github
+                    </a>
+                        </div>
+                        <div className="framelinks">
+                        <a href="https://expo.dev/@carlosmurillo/todolistcm" 
+                        target="_blank" 
+                        rel="noreferrer">
+                        Web
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="frameImgNative">
+                    <img src={todolist} alt="todolist"/>
+                </div>
+            </div>
+
+            <div className="frame">
+                <div className="frameText">
+                    <h1>Form to Google Sheet</h1>
+                    <p>
+                        I made a website where there is info cards about professional and
+                        form where if you submit it, it will render and save a card with
+                        your info in it.
+                    </p>
+
+                    <div className="tech">
+                        <ul>
+                            <li>React</li>
+                            <li>Semantic UI</li>
+                            <li>TableTop</li>
+                            <li>Sheet.best</li>
+                            <li>Google Sheets</li>
+                        </ul>
+                    </div>
+
+                    <div className="containerlinks">
+                        <div className="framelinks">
+                        <a href="https://github.com/CarlosMurilloGH/FormToGoogleSheet" 
+                        target="_blank" 
+                        rel="noreferrer">
+                        Github
+                    </a>
+                        </div>
+                        <div className="framelinks">
+                        <a href="https://form-to-excel.netlify.app" 
+                        target="_blank" 
+                        rel="noreferrer">
+                        Web
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="frameImg">
+                    <img src={form} alt="form"/>
+                </div>
+            </div>
+
+
+            
             <div className="frame">
                 <div className="frameText">
                     <h1>Criptocurrency Tracker</h1>
@@ -24,7 +109,7 @@ function Work() {
                         <ul>
                             <li>React</li>
                             <li>CSS3</li>
-                            <li>coingecko Api</li>
+                            <li>Coingecko Api</li>
                         </ul>
                     </div>
 
@@ -89,48 +174,7 @@ function Work() {
                 </div>
             </div>
 
-            <div className="frame">
-                <div className="frameText">
-                    <h1>Form to Google Sheet</h1>
-                    <p>
-                        I made a website where there is info cards about professional and
-                        form where if you submit it, it will render and save a card with
-                        your info in it.
-                    </p>
-
-                    <div className="tech">
-                        <ul>
-                            <li>React</li>
-                            <li>Semantic UI</li>
-                            <li>TableTop</li>
-                            <li>Sheet.best</li>
-                            <li>Google Sheets</li>
-                        </ul>
-                    </div>
-
-                    <div className="containerlinks">
-                        <div className="framelinks">
-                        <a href="https://github.com/CarlosMurilloGH/FormToGoogleSheet" 
-                        target="_blank" 
-                        rel="noreferrer">
-                        Github
-                    </a>
-                        </div>
-                        <div className="framelinks">
-                        <a href="https://form-to-excel.netlify.app" 
-                        target="_blank" 
-                        rel="noreferrer">
-                        Web
-                    </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="frameImg">
-                    <img src={form} alt="form"/>
-                </div>
-            </div>
-
+           
 
             <div className="frame">
                 <div className="frameText">
