@@ -192,3 +192,30 @@
     }
     
 }
+
+@media (max-device-width: 400px){
+    .desing img{
+        width: 300px;
+        
+    }
+
+    .figmaDesigns{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 0px;
+        column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        margin-bottom: 30px;
+    }
+
+    .frameText h1{
+        font-size: 35px;
+    }
+
+    .figmaTitle p{
+        font-size: 35px;
+    }
+}
