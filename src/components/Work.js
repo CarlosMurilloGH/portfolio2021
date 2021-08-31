@@ -194,7 +194,7 @@ function Work() {
 
                     <div className="containerlinks">
                         <div className="framelinks">
-                        <a href="https://github.com/CarlosMurilloGH/FormToGoogleSheet" 
+                        <a href="https://github.com/CarlosMurilloGH/deliverypricingcalculator" 
                         target="_blank" 
                         rel="noreferrer">
                         Github
