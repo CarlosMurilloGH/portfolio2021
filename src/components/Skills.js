@@ -58,6 +58,8 @@ export default function Skills() {
                         <h1>Back-End Development</h1>
 
                         <ul>
+                            <li>Node</li>
+                            <li>PHP</li>
                             <li>Firebase</li>
                         </ul>
                     </div>
